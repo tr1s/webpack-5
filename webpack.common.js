@@ -16,6 +16,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(?:ico|gif|png|jpg|jpeg|svg)$/i,
+        type: 'asset'
+      },
+      {
         test: /\.txt$/,
         type: 'asset/source'
       },
