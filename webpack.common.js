@@ -20,6 +20,10 @@ module.exports = {
         type: 'asset'
       },
       {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+      {
         test: /\.txt$/,
         type: 'asset/source'
       },
